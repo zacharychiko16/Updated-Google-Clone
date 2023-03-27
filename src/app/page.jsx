@@ -1,5 +1,9 @@
-export default function page() {
+import HomeHeader from "@/components/HomeHeader";
+
+export default function Home() {
   return (
-    <div className="text-red-700">page</div>
+    <>
+    <HomeHeader />
+    </>
   )
 }
