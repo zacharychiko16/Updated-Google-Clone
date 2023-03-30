@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { BsFillMicFill } from "react-icons/bs";
 
 export default function HomeSearch() {
-    const router = useRouter();
+  const router = useRouter();
   const [input, setInput] = useState("");
   const [randomSearchLoading, setRandomSearchLoading] = useState(false);
   function handleSubmit(e) {
@@ -59,5 +59,5 @@ export default function HomeSearch() {
         </button>
       </div>
     </>
-  )
+  );
 }
