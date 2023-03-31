@@ -1,4 +1,5 @@
 import SearchHeader from "@/components/SearchHeader";
+
 import "./../global.css";
 
 export default function SearchLayout({ children }) {
@@ -7,6 +8,7 @@ export default function SearchLayout({ children }) {
       <SearchHeader />
       {children}
       {/* Footer */}
+      
     </div>
   );
 }
